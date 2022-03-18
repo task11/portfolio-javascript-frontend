@@ -4,10 +4,11 @@
 <h1 align="middle">김정현's Protfolio Landing Page</h1>
 
 ## 🗂 Index
-  - [Overview](#overview) 
-  - [Getting Started](#getting-started)
-  - [Authors](#authors)
-  - [License](#license)
+  - [Overview](#💡-overview) 
+  - [Getting Started](#🏁-getting-started)
+  - [Tech stack](#🛠-tech-stack)
+  - [Authors](#✍️-authors)
+  - [License](#🎓-license)
 <!--  Other options to write Readme
   - [Deployment](#deployment)
   - [Used or Referenced Projects](Used-or-Referenced-Projects)
