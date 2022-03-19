@@ -1,7 +1,7 @@
 <p align="middle" >
   <img width="100px;" src="https://user-images.githubusercontent.com/89209626/158958811-d3c9d466-c76a-4a9a-8f95-f05b174c3a03.png"/>
 </p>
-<h1 align="middle">김정현's Protfolio Landing Page</h1>
+<h1 align="middle">김정현's Portfolio Landing Page</h1>
 
 ## 🗂 Index
   - [Overview](#💡-overview) 
