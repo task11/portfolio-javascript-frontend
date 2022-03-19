@@ -1,5 +1,6 @@
-import clock from "./components/clock.js";
+import Clock from "./components/clock.js";
 
 
+const clock = new Clock();
 
-console.log(clock.name);
+setInterval(clock.render, 1000);
