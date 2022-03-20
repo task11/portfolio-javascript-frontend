@@ -25,7 +25,7 @@ This project's purpose is to build a landing page service for my portfolio proje
 ... etc
 
 ## 🏁 Getting Started
-**visit this url : [not yet..]()**
+**visit this url : [https://task11.github.io/portfolio](https://task11.github.io/portfolio-javascript-frontend/)**
 
 
 ## 🛠 Tech stack
