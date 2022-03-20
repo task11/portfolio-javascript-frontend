@@ -1,4 +1,6 @@
 import Clock from "./clock.js";
+import Weather from "./weather.js"
+
 
 const bgColors = [
   "#ef5777",
@@ -20,6 +22,7 @@ const bgColors = [
   "#ffd32a",
   "#ff3f34"
 ];
+
 const randomColorIndex = {
   start: bgColors[Math.floor(Math.random() * bgColors.length)],
   end: bgColors[Math.floor(Math.random() * bgColors.length)]
@@ -29,8 +32,9 @@ const $body = document.querySelector('body')
 
 $body.style.background = `repeating-linear-gradient(-45deg, ${randomColorIndex.start}, ${randomColorIndex.start} 100px, ${randomColorIndex.end} 100px, ${randomColorIndex.end} 200px)`;
 
+const weather = new Weather();
 const clock = new Clock();
 
-
+weather.render();
 setInterval(clock.render, 1000);
 
