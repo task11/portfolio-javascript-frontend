@@ -1,3 +1,77 @@
-body{
-  background-color: antiquewhite;
+@font-face {
+  font-family: 'LAB디지털';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
+/* start */
+
+
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
+
+.real-time-information {
+  display: flex;
+  flex-direction: row;
+  font-family: 'LAB디지털';
+  border-radius: 10px;
+  box-shadow: 6px 6px 16px rgb(112, 112, 112);
+}
+
+.real-time-location{
+  padding: 10px;
+  color: white;
+  background-color: rgb(59, 59, 185);
+  border-radius: 10px 0 0 10px;
+}
+
+.wrap-clock {
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+  padding: 18px;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+  
+}
+
+.real-time-weather{
+  color: rgb(59, 59, 185);
+}
+
+.real-time-clock{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  color: rgb(59, 59, 185);
+  
+}
+
+.box-clock{
+  background-color: rgb(59, 59, 185);
+  border-radius: 10px;
+  margin: 0 5px 0 5px;
+  padding: 0 15px 0 15px;
+  color: white;
+}
+
+/* .box-clock{
+  background-color: rgb(27, 167, 27);
+  flex-basis: auto;
+  padding: 20px;
+  margin-left: 10px;
+  text-align: center;
+  box-shadow: 6px 6px 16px rgb(92, 148, 92);
+  border-radius: 20px;
+} */
+
