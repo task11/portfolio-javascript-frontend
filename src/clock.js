@@ -16,8 +16,16 @@ export default class Clock {
       sec: String(today.getSeconds()).padStart(2, "0")
     }
     templateId.innerHTML = `
-                <div class="real-time-clock">
-                    <span>${dayObject.year}-${dayObject.month}-${dayObject.date}  ${dayObject.hour} : ${dayObject.min} : ${dayObject.sec} </span>
+                <div class="real-time-information">
+                  <div class="real-time-location">Seoul</div>
+                  <div class="wrap-clock">
+                    <div class="real-time-weather">20°</div>
+                    <div class="real-time-clock">
+                      <div class="box-clock">${dayObject.hour}</div>
+                      <span>:</span>
+                      <div class="box-clock">${dayObject.min}</div>
+                    </div>
+                  </div>
                 </div>
             `;
   }
