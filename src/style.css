@@ -33,6 +33,7 @@
   color: white;
   background-color: rgb(59, 59, 185);
   border-radius: 10px 0 0 10px;
+  text-align: center;
 }
 
 .wrap-clock {
