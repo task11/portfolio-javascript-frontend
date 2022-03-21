@@ -17,6 +17,8 @@
 <!--Wirte one paragraph of project description -->  
 This project's purpose is to build a landing page service for my portfolio project.
 
+- Design & Wireframes : [Figma](https://www.figma.com/file/ruxQi2r6h3bSgeplZdKZnm/My-Portfolio?node-id=0%3A1)
+
 ## 💡 Overview
 <!-- Write Overview about this project -->
 **If you visit my page, you can see this projects**
