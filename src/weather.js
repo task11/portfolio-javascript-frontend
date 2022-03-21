@@ -12,7 +12,6 @@ export default class Weather {
     fetch(url)
       .then((res) => res.json())
       .then((res) => {
-        console.log(res);
         templateIdL.innerText = `
           ${res.weather[0].main}
 
