@@ -12,14 +12,14 @@
 </head>
 
 <body>
-  <header>
+  <header class="header-nav">
     <h1>
-      <a href="#">
+      <a class="logo-nav" href="#">
         <img src="" alt="Logo" />
       </a>
     </h1>
-    <nav>
-      <h1>Global Navigation</h1>
+    <nav class="global-nav">
+      <!-- <h1>Golbal Navigation</h1> -->
       <ul>
         <li>
           <a href="#">
@@ -39,93 +39,98 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <header>
-      <h1>About</h1>
-      <p>안녕하세요,</br>
+  <main class="main">
+    <header class="header-main">
+      <!-- <h1>About</h1> -->
+      <div class="hello-kr">안녕하세요,</br>
         주니어 프론트엔드 개발자</br>
         김정현입니다.
-      </p>
-      <p>
+      </div>
+      <div class="hello-en">
         Hello, I'm Jung Hyun Kim,</br>
         Junior Front-end Developer.
-      </p>
+      </div>
     </header>
-    <section>
-      <h1>Introduction</h1>
-      <img src="" alt="Profile photo" />
-      <div>
-        <span>Text Example</span>
-        <p>Introduction 1</p>
-        <p>Introduction 2</p>
+    <section class="section-intro">
+      <!-- <h1>Introduction</h1> -->
+      <img src="assets/profile.jpg" alt="Profile photo" />
+      <div class="intro-text-wrap">
+        <div class="intro-text-head">Text Example</div>
+        <div class="intro-text-main">
+          <span>Introduction 1</span>
+          <span>Introduction 2</span>
+        </div>
       </div>
     </section>
-    <section>
-      <h1>Resume</h1>
-      <article>
+    <section class="section-resume">
+      <!-- <h1>Resume</h1> -->
+      <article class="information">
         <h1>Info</h1>
-        <div>General</div>
-        <div>Career</div>
-        <div>TechStack</div>
+        <div class="info">
+          <span>General</span>
+          <p>General Exmaple</p>
+        </div>
+        <div class="info">
+          <span>Career</span>
+          <p>Career Example</p>
+        </div>
+        <div class="info">
+          <span>TechStack</span>
+          <p>TechStack Example</p>
+        </div>
       </article>
     </section>
-    <section>
-      <h1>Project</h1>
-      <article>
+    <section class="section-project">
+      <!-- <h1>Project</h1> -->
+      <article class="project">
         <h1>Project 1</h1>
-        <div>
+        <div class="project-summary">
           <span>01/Project Name</span>
           <p>Project Summary</p>
-          <div>
-            <span>Tech stack</span>
-            <ul>
-              <li>react</li>
-              <li>html..</li>
-            </ul>
-            <a href="#">Visit service URL (화살표)</a>
-          </div>
-          <img src="" alt="Project 1" />
+          <span>Tech stack</span>
+          <ul>
+            <li>react</li>
+            <li>html..</li>
+          </ul>
+          <a href="#">Visit service URL (화살표)</a>
         </div>
+        <img class="project-img" src="" alt="Project 1" />
       </article>
       <hr>
-      <article>
+      <article class="project">
         <h1>Project 2</h1>
-        <div>
+        <div class="project-summary">
           <span>02/Project Name</span>
           <p>Project Summary</p>
-          <div>
-            <span>Tech stack</span>
-            <ul>
-              <li>typescript</li>
-              <li>html..</li>
-            </ul>
-            <a href="#">Visit service URL (화살표)</a>
-          </div>
-          <img src="" alt="Project 2" />
+          <span>Tech stack</span>
+          <ul>
+            <li>react</li>
+            <li>html..</li>
+          </ul>
+          <a href="#">Visit service URL (화살표)</a>
         </div>
+        <img class="project-img" src="" alt="Project 2" />
       </article>
       <hr>
-      <article>
+      <article class="project">
         <h1>Project 3</h1>
-        <div>
+        <div class="project-summary">
           <span>03/Project Name</span>
           <p>Project Summary</p>
-          <div>
-            <span>Tech stack</span>
-            <ul>
-              <li>VanillaJS</li>
-              <li>html..</li>
-            </ul>
-            <a href="#">Visit service URL (화살표)</a>
-          </div>
-          <img src="" alt="Project 3" />
+          <span>Tech stack</span>
+          <ul>
+            <li>react</li>
+            <li>html..</li>
+          </ul>
+          <a href="#">Visit service URL (화살표)</a>
         </div>
+        <img class="project-img" src="" alt="Project 3" />
       </article>
     </section>
     <hr>
-    <section>
-      <h1>Contact</h1>
-      <div>
+    <section class="section-contact">
+      <!-- <h1>Contact</h1> -->
+      <div class="contact">
         <p>How to reach me -></p>
         <a href="">taskbz11@gmail.com</a>
       </div>
@@ -150,8 +155,6 @@
         </a>
       </li>
     </ul>
-
-
   </footer>
   <script type="module" src="src/app.js"></script>
 </body>
