@@ -1,7 +1,21 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 * { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
-html{
-  scroll-behavior: smooth;
+html {
+  font-size: 62.5%;
+}
+@media screen and (min-width: 0\0) {
+  /* IE 9, IE 10, IE 11 */
+  :root,
+  html {
+    font-size: 10px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* IE 10, IE 11 */
+  :root,
+  html {
+    font-size: 10px;
+  }
 }
 
 body{
@@ -24,7 +38,7 @@ body{
   top:0;
   width:inherit;
   height: 50px;
-  font-size: 21px;
+  font-size: 2.1rem;
   padding-top: 100px;
 }
 
@@ -71,7 +85,7 @@ body{
 .main .header-main .hello-kr{
   font-style: normal;
   font-weight: 500;
-  font-size: 60px;
+  font-size: 6rem;
   line-height: 120%;
   letter-spacing: -0.03em;
 }
@@ -84,7 +98,7 @@ body{
   margin-top: 30px;
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 3.6rem;
   line-height: 120%;
   letter-spacing: -0.03em;
   color: rgba(96, 96, 96, 0.3);
@@ -115,7 +129,7 @@ body{
   height: 199px;
   font-style: normal;
   font-weight: 500;
-  font-size: 60px;
+  font-size: 6rem;
   line-height: 97.2%;
   letter-spacing: -0.03em;
 }
@@ -129,7 +143,7 @@ body{
   height: 359px;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 3.2rem;
   line-height: 117%;
   letter-spacing: -0.03em;
   
@@ -155,7 +169,7 @@ body{
 }
 
 .main .section-resume .information .info dl dt{
-  font-size: 18px;
+  font-size: 1.8rem;
   text-decoration:underline;
 }
 
@@ -185,18 +199,18 @@ body{
 
 .main .section-project .project .project-summary .project-title{
   font-weight: 700;
-  font-size: 21px;
+  font-size: 2.1rem;
 }
 
 .main .section-project .project .project-summary .project-text{
   margin-top: 25px;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .main .section-project .project .project-summary .project-spec{
   margin-top: 25px;
   /* text-decoration:underline; */
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #606060; 
 }
 
@@ -206,7 +220,7 @@ body{
 
 .main .section-project .project .project-summary .project-link{
   margin-top: 165px;
-  font-size: 15px;
+  font-size: 1.4rem;
   text-decoration: none;
   color: #039aff;
 }
@@ -228,7 +242,7 @@ body{
   color: black;
   text-decoration: none;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 2.1rem;
   line-height: 120%;
   letter-spacing: -0.03em;
 }
@@ -236,7 +250,7 @@ body{
 .main .section-contact .contact-link .contact-sub-title{
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 1.2rem;
   line-height: 120%;
   letter-spacing: -0.03em;
   color: rgba(96, 96, 96, 0.3);
@@ -256,7 +270,7 @@ body{
 .main .section-contact .contact-link ul li{
   color: black;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 120%;
   letter-spacing: -0.03em;
 }
@@ -287,7 +301,7 @@ footer{
 footer p{
   font-style: normal;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 2.1rem;
   line-height: 120%;
   letter-spacing: -0.03em;
   color: #039aff;
