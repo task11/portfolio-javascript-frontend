@@ -1,45 +1,64 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 * { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   display: flex;
   flex-direction: column;
-  
-  margin-left: 160px;
-  margin-right: 160px;
+  width: calc(100% - 320px);
+  height: 100vh;
+  margin: 0 160px 0 160px;
 }
+
 
 
 .header-nav{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
-  height: 100%;
+  background: white;
+  z-index: 2;
+  position: fixed;
+  top:0;
+  width:inherit;
+  height: 50px;
   font-size: 21px;
-  margin-top: 100px;
+  padding-top: 100px;
+}
+
+.header-nav .logo-nav {
+  padding-top: 10px;
+  width: auto;
+  height: 35px;
+}
+
+.header-nav .global-nav{
+  display: flex;
+  flex-direction: row; 
+  width: 30%;
   
 }
 
-.header-nav nav{
-  display: flex;
-  flex-direction: row; 
-}
-
-.header-nav nav ul{
+.header-nav .global-nav ul{
+  width: 100%;
   display: flex;
   flex-direction: row;
   list-style: none;
+  justify-content: space-between;
 }
 
-.header-nav nav ul a{
-  margin-left: 31px;
+.header-nav .global-nav ul a{
   color: black;
   text-decoration: none;
 }
 
 .main{
+  position: relative;
   margin-top: 220px;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -55,6 +74,10 @@ body{
   font-size: 60px;
   line-height: 120%;
   letter-spacing: -0.03em;
+}
+
+.main .header-main .hello-kr u{
+  text-decoration-color: #039aff;
 }
 
 .main .header-main .hello-en{
@@ -80,6 +103,7 @@ body{
   display: block;
   width: 443px;
   height: 552px;
+  
 }
 
 .main .section-intro .intro-text-wrap {
@@ -97,6 +121,9 @@ body{
 }
 
 .main .section-intro .intro-text-wrap .intro-text-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   margin-top: 30px;
   width: 575px;
   height: 359px;
@@ -105,20 +132,36 @@ body{
   font-size: 32px;
   line-height: 117%;
   letter-spacing: -0.03em;
+  
 }
-
+.main .section-resume{
+  margin-top: 120px;
+}
 
 .main .section-resume .information {
   display: flex;
   flex-direction: column;
   
 }
-.main .section-resume .information .info{
+
+.main .section-resume .information .info {
+  margin-right: 500px;
+}
+
+.main .section-resume .information .info dl{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.main .section-resume .information .info dl dt{
+  font-size: 18px;
+  text-decoration:underline;
 }
 
 .main .section-project{
+  margin-top: 120px;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -126,30 +169,127 @@ body{
 .main .section-project .project{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  margin-bottom: 70px;
+  border-bottom: solid 2px #039aff;
 }
 
 .main .section-project .project .project-summary{
   display: flex;
   flex-direction: column;
+  font-style: normal;
+  line-height: 121.5%;
+  letter-spacing: -0.03em;
+}
+
+.main .section-project .project .project-summary .project-title{
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.main .section-project .project .project-summary .project-text{
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.main .section-project .project .project-summary .project-spec{
+  margin-top: 25px;
+  /* text-decoration:underline; */
+  font-size: 14px;
+  color: #606060; 
+}
+
+.main .section-project .project .project-summary .project-spec ul{
+  list-style-type:none;
+}
+
+.main .section-project .project .project-summary .project-link{
+  margin-top: 165px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #039aff;
 }
 
 .main .section-contact{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-.main .section-contact .contact{
+.main .section-contact .contact-link{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-right: 100px;
+}
+
+.main .section-contact .contact-link .contact-title{
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+}
+
+.main .section-contact .contact-link .contact-sub-title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: rgba(96, 96, 96, 0.3);
+  letter-spacing: -0.03em;
+}
+
+.main .section-contact .contact-link ul{
+  width: 100%;
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  ;
+}
+
+.main .section-contact .contact-link ul li{
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+}
+
+.main .section-contact .contact-link ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+
+.main .up-link { 
+  position: fixed;
+  right: 5%;
+  bottom: 14%;
+  color: black;
+  
 }
 
 footer{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  bottom: 0;
+  margin-top: 220px;
+  padding-bottom: 100px;
 }
 
-footer ul{
-  display: flex;
-  flex-direction: row;
-  list-style: none;
+footer p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: #039aff;
 }
+
