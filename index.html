@@ -13,38 +13,37 @@
 
 <body>
   <header class="header-nav">
-    <h1>
-      <a class="logo-nav" href="#">
-        <img src="" alt="Logo" />
-      </a>
-    </h1>
+    <a class="logo-nav" href="#">
+      <img src="assets/logo.png" alt="" />
+    </a>
+
     <nav class="global-nav">
       <!-- <h1>Golbal Navigation</h1> -->
       <ul>
         <li>
-          <a href="#">
+          <a href="#resume">
             About
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#project">
             Project
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#contact">
             Contact
           </a>
         </li>
       </ul>
     </nav>
   </header>
-  <main class="main">
+  <main id="header" class="main">
     <header class="header-main">
       <!-- <h1>About</h1> -->
       <div class="hello-kr">안녕하세요,</br>
         주니어 프론트엔드 개발자</br>
-        김정현입니다.
+        <u>김정현</u>입니다.
       </div>
       <div class="hello-en">
         Hello, I'm Jung Hyun Kim,</br>
@@ -62,99 +61,140 @@
         </div>
       </div>
     </section>
-    <section class="section-resume">
+    <section id="resume" class="section-resume">
       <!-- <h1>Resume</h1> -->
       <article class="information">
-        <h1>Info</h1>
+        <!-- <h1>Info</h1> -->
         <div class="info">
-          <span>General</span>
-          <p>General Exmaple</p>
+          <dl>
+            <dt>General</dt>
+            <dd>General Exmaple</dd>
+          </dl>
         </div>
         <div class="info">
-          <span>Career</span>
-          <p>Career Example</p>
+          <dl>
+            <dt>Career</dt>
+            <dd>Career Example</dd>
+          </dl>
         </div>
         <div class="info">
-          <span>TechStack</span>
-          <p>TechStack Example</p>
+          <dl>
+            <dt>Tech Stack</dt>
+            <dd>Tech Stack Example</dd>
+          </dl>
         </div>
       </article>
     </section>
-    <section class="section-project">
+    <section id="project" class="section-project">
       <!-- <h1>Project</h1> -->
       <article class="project">
-        <h1>Project 1</h1>
+        <!-- <h1>Project 1</h1> -->
         <div class="project-summary">
-          <span>01/Project Name</span>
-          <p>Project Summary</p>
-          <span>Tech stack</span>
-          <ul>
-            <li>react</li>
-            <li>html..</li>
-          </ul>
-          <a href="#">Visit service URL (화살표)</a>
+          <span class="project-title">1. Have A Nice Day</span>
+          <div class="project-text">
+            <span>Project Summary</span>
+          </div>
+          <div class="project-spec">
+            <span>Tech stack</span>
+            <ul>
+              <li>react</li>
+              <li>html..</li>
+            </ul>
+          </div>
+          <a class="project-link" href="#">visit this link &nbsp; <i class="fas fa-link"></i></a>
         </div>
-        <img class="project-img" src="" alt="Project 1" />
+        <img class="project-img" src="https://fakeimg.pl/650x350/" alt="Project 1" />
       </article>
-      <hr>
+
       <article class="project">
-        <h1>Project 2</h1>
+        <!-- <h1>Project 2</h1> -->
+        <img class="project-img" src="https://fakeimg.pl/650x350/" alt="Project 2" />
         <div class="project-summary">
-          <span>02/Project Name</span>
-          <p>Project Summary</p>
-          <span>Tech stack</span>
-          <ul>
-            <li>react</li>
-            <li>html..</li>
-          </ul>
-          <a href="#">Visit service URL (화살표)</a>
+          <span class="project-title">2. VanillaJS or Next.js</span>
+          <div class="project-text">
+            <span>Project Summary</span>
+          </div>
+          <div class="project-spec">
+            <span>Tech stack</span>
+            <ul>
+              <li>react</li>
+              <li>html..</li>
+            </ul>
+          </div>
+          <a class="project-link" href="#">visit this link &nbsp; <i class="fas fa-link"></i></a>
         </div>
-        <img class="project-img" src="" alt="Project 2" />
       </article>
-      <hr>
+
       <article class="project">
-        <h1>Project 3</h1>
+        <!-- <h1>Project 3</h1> -->
         <div class="project-summary">
-          <span>03/Project Name</span>
-          <p>Project Summary</p>
-          <span>Tech stack</span>
-          <ul>
-            <li>react</li>
-            <li>html..</li>
-          </ul>
-          <a href="#">Visit service URL (화살표)</a>
+          <span class="project-title">3. Clone Coding</span>
+          <div class="project-text">
+            <span>Project Summary</span>
+          </div>
+          <div class="project-spec">
+            <span>Tech stack</span>
+            <ul>
+              <li>react</li>
+              <li>html..</li>
+            </ul>
+          </div>
+          <a class="project-link" href="#">visit this link &nbsp; <i class="fas fa-link"></i></a>
         </div>
-        <img class="project-img" src="" alt="Project 3" />
+        <img class="project-img" src="https://fakeimg.pl/650x350/" alt="Project 3" />
       </article>
     </section>
-    <hr>
-    <section class="section-contact">
+
+    <section id="contact" class="section-contact">
       <!-- <h1>Contact</h1> -->
-      <div class="contact">
-        <p>How to reach me -></p>
-        <a href="">taskbz11@gmail.com</a>
+      <div class="contact-link">
+        <span class="contact-title">김정현</span>
+        <span class="contact-sub-title">Information</span>
+        <ul>
+          <li>
+            서울 특별시
+          </li>
+          <li>
+            웹 프론트엔드 개발
+          </li>
+          <li>
+
+          </li>
+        </ul>
+      </div>
+      <div class="contact-link">
+        <span class="contact-title">연락처</span>
+        <span class="contact-sub-title">How to reach me?</span>
+        <ul>
+          <li>
+            <a href="https://velog.io/@task11" target="_blank">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="mailto:6539305@gmail.com" target="_blank">
+              Email
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/task11" target="_blank">
+              Github
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
+    <aside class="up-link">
+      <a href="#">
+        <i class="fas fa-arrow-up fa-2x"></i>
+      </a>
+    </aside>
   </main>
   <footer>
     <p>Copyright ⓒ; 2022. task11. All Rights Reserved.</p>
-    <ul>
-      <li>
-        <a href="#">
-          Blog
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          Email
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          Github
-        </a>
-      </li>
-    </ul>
+    <div>
+
+    </div>
   </footer>
   <script type="module" src="src/app.js"></script>
 </body>
