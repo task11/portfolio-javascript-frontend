@@ -1,15 +1,91 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 * { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+
+
+
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
+
+@media (max-width:768px) {
+  html {
+    font-size: 3px;
+    scroll-behavior: smooth;
+  }
+
+  .header-nav .logo-nav img{
+    max-width: 30px;
+    height: auto;
+  }
+
+  .main .section-intro img {
+    display: block;
+    max-width: 150px;
+    height: 250px;
+  }
+
+  .main .section-project .project .project-img{
+    max-width: 200px;
+    height: 100px;
+  }
+}
+
+@media all and (min-width:768px) and (max-width:1080px) {
+  html{
+    font-size: 5px;
+  }
+
+  .header-nav .logo-nav img{
+    max-width: 45px;
+    height: auto;
+  }
+
+  .main .section-intro img {
+    display: block;
+    max-width: 350px;
+    height: 450px;
+  }
+
+  .main .section-project .project .project-img{
+    max-width: 270px;
+    height: 170px;
+  }
+}
+
+@media (min-width: 1080px){
+  html{
+    font-size: 62.5%;
+  }
+
+  .main .section-intro img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .main .section-project .project .project-img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+
 @media screen and (min-width: 0\0) {
   /* IE 9, IE 10, IE 11 */
   :root,
   html {
     font-size: 10px;
   }
+
+  
 }
+
+
+
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   /* IE 10, IE 11 */
   :root,
@@ -21,9 +97,9 @@ html {
 body{
   display: flex;
   flex-direction: column;
-  width: calc(100% - 320px);
+  width: 76%;
   height: 100vh;
-  margin: 0 160px 0 160px;
+  margin: 0 12% 0 12%;
 }
 
 
@@ -51,8 +127,7 @@ body{
 .header-nav .global-nav{
   display: flex;
   flex-direction: row; 
-  width: 30%;
-  
+  width: 50%;
 }
 
 .header-nav .global-nav ul{
@@ -80,10 +155,12 @@ body{
 .main .header-main{
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .main .header-main .hello-kr{
   font-style: normal;
+  width: 100%;
   font-weight: 500;
   font-size: 6rem;
   line-height: 120%;
@@ -113,20 +190,16 @@ body{
   justify-content: space-between;
 }
 
-.main .section-intro img {
-  display: block;
-  width: 443px;
-  height: 552px;
-  
-}
+
+
 
 .main .section-intro .intro-text-wrap {
   margin-left: 100px;
 }
 
 .main .section-intro .intro-text-wrap .intro-text-head {
-  width: 480px;
-  height: 199px;
+  /* width: 480px;
+  height: 199px; */
   font-style: normal;
   font-weight: 500;
   font-size: 6rem;
@@ -139,8 +212,8 @@ body{
   flex-direction: column;
   justify-content: space-around;
   margin-top: 30px;
-  width: 575px;
-  height: 359px;
+  /* width: 575px;
+  height: 359px; */
   font-style: normal;
   font-weight: 400;
   font-size: 3.2rem;
@@ -196,6 +269,9 @@ body{
   line-height: 121.5%;
   letter-spacing: -0.03em;
 }
+
+
+
 
 .main .section-project .project .project-summary .project-title{
   font-weight: 700;
