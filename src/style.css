@@ -22,12 +22,12 @@ html {
   .main .section-intro img {
     display: block;
     max-width: 150px;
-    height: 250px;
+    height: auto;
   }
 
   .main .section-project .project .project-img{
     max-width: 200px;
-    height: 100px;
+    height: auto;
   }
 }
 
@@ -44,7 +44,7 @@ html {
   .main .section-intro img {
     display: block;
     max-width: 350px;
-    height: 450px;
+    height: auto;
   }
 
   .main .section-project .project .project-img{
@@ -83,7 +83,6 @@ html {
 
   
 }
-
 
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -309,7 +308,7 @@ body{
 .main .section-contact .contact-link{
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 20%;
   margin-right: 7%;
 }
 
@@ -345,7 +344,7 @@ body{
 .main .section-contact .contact-link ul li{
   color: black;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 0.6rem;
   line-height: 120%;
   letter-spacing: -0.03em;
 }
