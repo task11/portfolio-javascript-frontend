@@ -33,7 +33,7 @@ html {
 
 @media all and (min-width:768px) and (max-width:1080px) {
   html{
-    font-size: 5px;
+    font-size: 6px;
   }
 
   .header-nav .logo-nav img{
