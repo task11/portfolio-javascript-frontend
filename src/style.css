@@ -1,5 +1,8 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
-* { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+
+* {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
 
 
 
@@ -14,7 +17,7 @@ html {
     scroll-behavior: smooth;
   }
 
-  .header-nav .logo-nav img{
+  .header-nav .logo-nav img {
     max-width: 30px;
     height: auto;
   }
@@ -25,18 +28,18 @@ html {
     height: auto;
   }
 
-  .main .section-project .project .project-img{
+  .main .section-project .project .project-img {
     max-width: 200px;
     height: auto;
   }
 }
 
 @media all and (min-width:768px) and (max-width:1080px) {
-  html{
+  html {
     font-size: 6px;
   }
 
-  .header-nav .logo-nav img{
+  .header-nav .logo-nav img {
     max-width: 45px;
     height: auto;
   }
@@ -47,14 +50,31 @@ html {
     height: auto;
   }
 
-  .main .section-project .project .project-img{
+  .main .section-project .project .project-img {
     max-width: 270px;
     height: 170px;
   }
 }
 
-@media (min-width: 1080px){
-  html{
+@media all and (min-width:1080px) and (max-width:1680px) {
+  html {
+    font-size: 55.5%;
+  }
+
+  .main .section-intro img {
+    display: block;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .main .section-project .project .project-img {
+    max-width: 400px;
+    height: auto;
+  }
+}
+
+@media (min-width: 1680px) {
+  html {
     font-size: 62.5%;
   }
 
@@ -64,7 +84,7 @@ html {
     height: auto;
   }
 
-  .main .section-project .project .project-img{
+  .main .section-project .project .project-img {
     max-width: 100%;
     height: auto;
   }
@@ -75,17 +95,20 @@ html {
 
 
 @media screen and (min-width: 0\0) {
+
   /* IE 9, IE 10, IE 11 */
   :root,
   html {
     font-size: 10px;
   }
 
-  
+
 }
 
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+
   /* IE 10, IE 11 */
   :root,
   html {
@@ -93,7 +116,7 @@ html {
   }
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
   width: 76%;
@@ -103,14 +126,14 @@ body{
 
 
 
-.header-nav{
+.header-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background: white;
   z-index: 2;
   position: sticky;
-  top:0;
+  top: 0;
   height: 3.5%;
   font-size: 2.1rem;
   padding-top: 5%;
@@ -122,13 +145,13 @@ body{
   height: 35px;
 }
 
-.header-nav .global-nav{
+.header-nav .global-nav {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   width: 50%;
 }
 
-.header-nav .global-nav ul{
+.header-nav .global-nav ul {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -136,12 +159,12 @@ body{
   justify-content: space-between;
 }
 
-.header-nav .global-nav ul a{
+.header-nav .global-nav ul a {
   color: black;
   text-decoration: none;
 }
 
-.main{
+.main {
   position: relative;
   margin-top: 15%;
   width: 100%;
@@ -150,13 +173,13 @@ body{
   flex-direction: column;
 }
 
-.main .header-main{
+.main .header-main {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.main .header-main .hello-kr{
+.main .header-main .hello-kr {
   font-style: normal;
   width: 100%;
   font-weight: 500;
@@ -165,11 +188,11 @@ body{
   letter-spacing: -0.03em;
 }
 
-.main .header-main .hello-kr u{
+.main .header-main .hello-kr u {
   text-decoration-color: #039aff;
 }
 
-.main .header-main .hello-en{
+.main .header-main .hello-en {
   margin-top: 2%;
   font-style: normal;
   font-weight: 500;
@@ -180,7 +203,7 @@ body{
   letter-spacing: -0.03em;
 }
 
-.main .section-intro{
+.main .section-intro {
   margin-top: 8%;
   width: 100%;
   display: flex;
@@ -209,7 +232,16 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: 2%;
+  margin-top: 8%;
+  /* width: 575px;
+  height: 359px; */
+
+
+}
+
+.main .section-intro .intro-text-wrap .intro-text-main span {
+
+  margin-top: 8%;
   /* width: 575px;
   height: 359px; */
   font-style: normal;
@@ -217,41 +249,43 @@ body{
   font-size: 3.2rem;
   line-height: 117%;
   letter-spacing: -0.03em;
-  
+
 }
-.main .section-resume{
+
+
+.main .section-resume {
   margin-top: 8%;
 }
 
 .main .section-resume .information {
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .main .section-resume .information .info {
   margin-right: 35%;
 }
 
-.main .section-resume .information .info dl{
+.main .section-resume .information .info dl {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 3rem;
 }
 
-.main .section-resume .information .info dl dt{
-  font-size: 1.8rem;
-  text-decoration:underline;
+.main .section-resume .information .info dl dt {
+  text-decoration: underline;
 }
 
-.main .section-project{
+.main .section-project {
   margin-top: 8%;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.main .section-project .project{
+.main .section-project .project {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -260,7 +294,7 @@ body{
   border-bottom: solid 2px #039aff;
 }
 
-.main .section-project .project .project-summary{
+.main .section-project .project .project-summary {
   display: flex;
   flex-direction: column;
   font-style: normal;
@@ -271,99 +305,108 @@ body{
 
 
 
-.main .section-project .project .project-summary .project-title{
+.main .section-project .project .project-summary .project-title {
   font-weight: 700;
   font-size: 2.1rem;
 }
 
-.main .section-project .project .project-summary .project-text{
+.main .section-project .project .project-summary .project-text {
   margin-top: 2%;
   font-size: 1.8rem;
 }
 
-.main .section-project .project .project-summary .project-spec{
+.main .section-project .project .project-summary .project-spec {
   margin-top: 2%;
   /* text-decoration:underline; */
   font-size: 1.4rem;
-  color: #606060; 
+  color: #606060;
 }
 
-.main .section-project .project .project-summary .project-spec ul{
-  list-style-type:none;
+.main .section-project .project .project-summary .project-spec ul {
+  list-style-type: none;
 }
 
-.main .section-project .project .project-summary .project-link{
+.main .section-project .project .project-summary .project-link {
   margin-top: 11.5;
   font-size: 1.4rem;
   text-decoration: none;
   color: #039aff;
 }
 
-.main .section-contact{
+.main .section-contact {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 8%;
 }
 
-.main .section-contact .contact-link{
+.main .section-contact .contact-link {
   display: flex;
-  flex-direction: column;
-  width: 20%;
-  margin-right: 7%;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.main .section-contact .contact-link .contact-title{
+.main .section-contact .contact-link .title-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+.main .section-contact .contact-link .title-wrap .contact-title {
   color: black;
   text-decoration: none;
   font-weight: 500;
-  font-size: 2.1rem;
+  font-size: 3rem;
   line-height: 120%;
   letter-spacing: -0.03em;
+
 }
 
-.main .section-contact .contact-link .contact-sub-title{
+.main .section-contact .contact-link .title-wrap .contact-sub-title {
   font-style: normal;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 3rem;
   line-height: 120%;
   letter-spacing: -0.03em;
   color: rgba(96, 96, 96, 0.3);
   letter-spacing: -0.03em;
+
 }
 
-.main .section-contact .contact-link ul{
-  width: 100%;
+.main .section-contact .contact-link ul {
+
   margin-top: 4%;
   display: flex;
   flex-direction: row;
   list-style: none;
-  justify-content: space-between;
-  ;
+  justify-content: space-around;
+  width: 30%;
 }
 
-.main .section-contact .contact-link ul li{
+.main .section-contact .contact-link ul li {
   color: black;
   font-weight: 300;
-  font-size: 0.6rem;
+  font-size: 1rem;
   line-height: 120%;
   letter-spacing: -0.03em;
 }
 
-.main .section-contact .contact-link ul li a{
+.main .section-contact .contact-link ul li a {
   color: black;
   text-decoration: none;
 }
 
 
-.main .up-link { 
+.main .up-link {
   position: fixed;
   right: 5%;
   bottom: 14%;
   color: black;
-  
+
 }
 
-footer{
+footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -372,7 +415,7 @@ footer{
   padding-bottom: 7%;
 }
 
-footer p{
+footer p {
   font-style: normal;
   font-weight: 500;
   font-size: 2.1rem;
@@ -380,4 +423,3 @@ footer p{
   letter-spacing: -0.03em;
   color: #039aff;
 }
-
