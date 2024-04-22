@@ -147,12 +147,14 @@ body {
   flex: 1;
   position: relative;
   animation: fadeInLeft 1s;
+  animation-iteration-count: none;
 }
 
 .about__profile {
   flex: 1;
   position: relative;
   animation: fadeInRight 1s;
+  animation-iteration-count: none;
 }
 
 .about__intro {
@@ -227,6 +229,7 @@ body {
   gap: 160px;
 
   animation: fadeIn 1200ms ease-in;
+  animation-iteration-count: none;
 }
 
 .experiences__title {
@@ -280,6 +283,7 @@ body {
   background-color: #007ccf;
   border-radius: 8px;
   animation: fadeIn 600ms ease-in;
+  animation-iteration-count: none;
 }
 
 .experiencse__ball {
@@ -291,6 +295,7 @@ body {
   border: 5px solid #007ccf;
   background-color: #262626;
   animation: fadeIn 600ms ease-in;
+  animation-iteration-count: none;
 }
 
 .ball__contents__1 {
@@ -729,12 +734,14 @@ body {
     gap: 8px;
     position: relative;
     animation: fadeInLeft 1s;
+    animation-iteration-count: none;
   }
 
   .about__profile {
     flex: 1;
     position: relative;
     animation: fadeInRight 1s;
+    animation-iteration-count: none;
   }
 
   .about__intro {
@@ -807,6 +814,7 @@ body {
     height: 150px;
     gap: 80px;
     animation: fadeIn 1200ms ease-in;
+    animation-iteration-count: none;
   }
 
   .experiences__title {
@@ -860,6 +868,7 @@ body {
     background-color: #007ccf;
     border-radius: 8px;
     animation: fadeIn 600ms ease-in;
+    animation-iteration-count: none;
   }
 
   .experiencse__ball {
@@ -871,6 +880,7 @@ body {
     border: 4px solid #007ccf;
     background-color: #262626;
     animation: fadeIn 600ms ease-in;
+    animation-iteration-count: none;
   }
 
   .ball__contents__1 {
@@ -1192,12 +1202,14 @@ body {
     gap: 5px;
     position: relative;
     animation: fadeInLeft 1s;
+    animation-iteration-count: none;
   }
 
   .about__profile {
     flex: 1;
     position: relative;
     animation: fadeInRight 1s;
+    animation-iteration-count: none;
   }
 
   .about__intro {
@@ -1270,6 +1282,7 @@ body {
     height: 150px;
     gap: 40px;
     animation: fadeIn 1200ms ease-in;
+    animation-iteration-count: none;
   }
 
   .experiences__title {
@@ -1323,6 +1336,7 @@ body {
     background-color: #007ccf;
     border-radius: 8px;
     animation: fadeIn 600ms ease-in;
+    animation-iteration-count: none;
   }
 
   .experiencse__ball {
@@ -1334,6 +1348,7 @@ body {
     border: 3px solid #007ccf;
     background-color: #262626;
     animation: fadeIn 600ms ease-in;
+    animation-iteration-count: none;
   }
 
   .ball__contents__1 {
