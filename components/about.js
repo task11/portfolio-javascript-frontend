@@ -24,15 +24,15 @@ export default class About {
           </div>
           <div class="about__contact">
             <a class="contact__item" href="https://github.com/task11" target="_blank">
-              <img class="contact__img" src="/assets/github_contact.png" alt="github link"/>
+              <img class="contact__img" src="/portfolio-javascript-frontend/assets/github_contact.png" alt="github link"/>
             </a>
             <a class="contact__item" href="mailto:6539305@gmail.com">
-              <img class="contact__img" src="/assets/mail.png" alt="mail link"/>
+              <img class="contact__img" src="/portfolio-javascript-frontend/assets/mail.png" alt="mail link"/>
             </a>
           </div>
         </div>
         <div class="about__profile">
-          <img src="/assets/profile_ill.png" alt="Profile Image" class="about__image" />
+          <img src="/portfolio-javascript-frontend/assets/profile_ill.png" alt="Profile Image" class="about__image" />
         </div>
       </div>
     `;
