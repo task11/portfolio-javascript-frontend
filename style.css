@@ -362,7 +362,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #262626;
-  height: 250px;
+  height: 200px;
   padding: 30px;
   gap: 24px;
 }
@@ -419,6 +419,14 @@ body {
   font-weight: bold;
   border-bottom-left-radius: 12px;
   border-top-right-radius: 12px;
+}
+
+.link__out {
+  color: #2e4ad5;
+
+  &:visited {
+    color: #2e4ad5;
+  }
 }
 
 .type__personal {
@@ -579,6 +587,10 @@ body {
 .project__label {
   font-weight: bold;
   font-size: 18px;
+}
+
+.project__intro {
+  line-height: 1.6;
 }
 
 .project__list {
@@ -1586,6 +1598,10 @@ body {
   .project__label {
     font-weight: bold;
     font-size: 14px;
+  }
+
+  .project__intro {
+    line-height: 1.4;
   }
 
   .project__list {

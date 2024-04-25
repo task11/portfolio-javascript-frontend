@@ -38,24 +38,26 @@ export default class Projects {
             </div>
             <div class="project__description">
               <div class="project__intro">
-                깃허브 유저 검색 서비스로 유저를 검색하여 차트로 시각화된 데이터를 확인할 수 있습니다.
+                기존 Github의 유저 검색 기능의 단계를 문제로 정의하고, Github API를 활용하여 유저 검색 기능만 가능한 서비스를 개발했습니다.<br/>
+                유저를 검색하여 최근 커밋에 대한 정보와 퍼블릭 레포지토리의 간단한 정보 등을 확인할 수 있습니다.
               </div>
               <div class="project__hr"></div>
               <div class="project__task project__info">
                 <span class="project__label">담당 업무</span>
                 <ul class="project__list">
-                    <li>· Github API를 활용한 유저 검색, 유저 레포지토리 정보 조회 기능 구현</li>
-                    <li>· 컴포넌트별 단위 테스트 코드 작성</li>
-                    <li>· Theme을 활용한 공통 스타일 관리, Dark/Light 모드 구현</li>
-                    <li>· Github Action기반의 CI/CD 환경 구성으로 배포 자동화 구현</li>
-                    <li>· <a href="https://github.com/task11/github-gg-react-typescript-frontend/projects?query=is%3Aopen">Github project</a>를 활용한 이슈 관리 및 작업 내용 review</li></li>
+                    <li>· Github API를 활용한 유저 검색, 유저 최근 3개의 커밋, 유저 레포지토리 정보 조회 기능 구현</li>
+                    <li>· Jest / react-testing-library를 활용한 컴포넌트별 단위 테스트 코드 작성</li>
+                    <li>· Theme 기반의 공통 스타일 관리, Dark/Light 모드 구현</li>
+                    <li>· Github Action을 활용한 CI/CD 환경 구성으로 배포 자동화 구현</li>
+                    <li>· Husky를 활용한 Eslint, testing, code formatting 자동화</li>
+                    <li>· <a href="https://github.com/task11/github-gg-react-typescript-frontend/projects?query=is%3Aopen" class="link__out">Github project</a>를 활용한 이슈 관리 및 작업 내용 review</li></li>
                 </ul>
               </div>
               <div class="project__result project__info">
                 <div class="project__label">성과</div>
                 <ul class="project__list">
-                  <li>·  Theme 변경 시 깜빡임 현상을 해결하기 위해 React hook인 useEffect를 useLayoutEffect로 대체하여 문제 해결</li>
-                  <li>·  검색 창에 키워드 입력 시 Debounce 기법을 통한 API 호출 최적화</li>
+                  <li>· Dark/Light Theme 변경 시 깜빡임 현상을 해결하기 위해 React hook인 useEffect를 useLayoutEffect로 대체하여 문제 해결</li>
+                  <li>· 검색 창에 키워드 입력 시 Debounce 기법을 활용한 API 호출 최적화</li>
                 </ul>
               </div>
             </div>
@@ -94,7 +96,8 @@ export default class Projects {
             </div>
             <div class="project__description">
               <div class="project__intro">
-                매일 개인 텀블러 사용여부를 기록할 수 있는 앱 서비스
+                일회용 컵 사용에 따른 환경 문제를 해결하기 위해 개발된 프로젝트로, 하루하루 개인 텀블러 사용 여부를 기록할 수 있는 앱 서비스입니다. <br/>
+                사용자가 개인 텀블러 사용을 달력으로 확인할 수 있게 하고 텀블러 사용 시 할인 혜택이 있는 카페 정보를 제공하여 텀블러 사용을 독려합니다.
               </div>
               <div class="project__hr"></div>
               <div class="project__task project__info">
@@ -102,16 +105,17 @@ export default class Projects {
                 <ul class="project__list">
                     <li>·  Apollo client를 활용한 GraphQL 통신</li>
                     <li>·  이메일 인증 로직 구현</li>
-                    <li>·  회원 가입 시 유저의 입력에 따른 실시간 유효성 검사</li>
-                    <li>·  Linear를 활용한 이슈 관리 및 작업 내용 review</li>
+                    <li>·  회원 가입 시 유저의 입력에 따른 실시간 유효성 검사 로직 구현</li>
+                    <li>·  텀블러 사용 기록을 확인할 수 있는 메인 캘린더 페이지 구현</li>
                 </ul>
               </div>
               <div class="project__result project__info">
                 <div class="project__label">성과</div>
                 <ul class="project__list">
-                  <li>·  닉네임 / 이메일 중복 체크 시 API 호출 성능 개선을 위해 유효성이 통과 됐을 때만 API를 호출할 수 있도록 개선 </li>
-                  <li>·  커스텀 훅으로 로직 재사용성 극대화</li>
-                  <li>·  코드리뷰를 통한 협업</li>
+                  <li>· 닉네임 / 이메일 중복 체크 시 API 호출 성능 개선을 위해 유효성이 통과 됐을 때만 API를 호출할 수 있도록 개선 </li>
+                  <li>· 공통 컴포넌트에 기본적인 디자인 시스템을 도입 및 개발하여 일관적인 사용자 경험을 줄 수 있도록함</li>
+                  <li>· 코드 리뷰를 통한 협업으로 다양한 피드백을 주고받아 코드 퀄리티 향상 등의 개선 효과를 얻었음</li>
+                  <li>· Linear를 활용한 이슈 관리 및 작업 내용을 리뷰하여 한 주 Cycle 단위의 업무를 수행하였음</li>
                 </ul>
               </div>
             </div>
@@ -147,13 +151,14 @@ export default class Projects {
             </div>
             <div class="project__description">
               <div class="project__intro">
-                자신의 추억이 담긴 게시물을 공유하는 위치기반 SNS서비스입니다.
+                이 프로젝트는 위치 정보를 기반으로 자신의 추억이 담긴 게시물을 공유하는 SNS서비스입니다.<br/>
+                위치 정보를 선택하여 공유하는 기존 SNS와는 다르게, 위치 정보를 메인으로 나의 여행 / 일상 기록을 공유하는 SNS를 만들고자 하였습니다.
               </div>
               <div class="project__hr"></div>
               <div class="project__task project__info">
                 <span class="project__label">담당 업무</span>
                 <ul class="project__list">
-                    <li>·  KAKAO MAP API를 활용한 SNS 피드 / 상세 페이지 구현</li>
+                    <li>·  KAKAO MAP API를 활용한 SNS 피드 / 상세 페이지 지도 구현</li>
                     <li>·  친구 찾기, 조회, 추가 기능 구현</li>
                     <li>·  페이지 별 라우팅과 권한 체크 라우터 구현</li>
                 </ul>
@@ -162,7 +167,7 @@ export default class Projects {
                 <div class="project__label">성과</div>
                 <ul class="project__list">                  
                   <li>·  컴포넌트 Lazy loading 적용으로 초기 로딩 최적화</li>
-                  <li>·  마커 호출 시 API 요청 횟수를 감소시켜 렌더링 최적화</li>
+                  <li>·  KAKAO MAP API의 마커 호출 시 API 요청 횟수를 감소시켜 렌더링 최적화</li>
                 </ul>
               </div>
             </div>

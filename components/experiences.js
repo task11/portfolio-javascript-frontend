@@ -17,11 +17,11 @@ export default class Experiences {
             </div>
             <div class="experiences__summary">
               <div class="experiences__period">
-                2020.06 - 2022.03
+                2022.11 - 2022.12
               </div>
               <div class="experiences__info">
                 <ul class="info__list">
-                  <li>· 4주간 7개의 기업 과제 수행 <a href="https://github.com/7th-wanted-pre-onboarding-frontend" target="_blank">👉</a></li>
+                  <li>· <a href="https://github.com/7th-wanted-pre-onboarding-frontend" target="_blank" class="link__out">4주간 7개의 기업 과제 수행</a></li>
                   <li>· 코드 리뷰,토론 등 동료 학습 방식으로 서비스 설계 및 구현</li>
                 </ul>
               </div>
@@ -30,13 +30,13 @@ export default class Experiences {
           <div class="experiences__content ">
             <div class="experiences__summary">
               <div class="experiences__period content_left">
-                2020.06 - 2022.03
+                2022.08 - 2022.11
               </div>
               <div class="experiences__info content_left">
                 <ul class="info__list">
                   <li>· 코드숨에서 진행하는 프론트엔드 리액트 과정 이수</li>
-                  <li>· TDD,테스트 코드 작성을 통한 견고한 코드 개발 방법학습</li>
-                  <li>· React, Jest, Eslint 학습</li>
+                  <li>· TDD, 테스트 코드 작성을 통한 견고한 코드 개발 방법학습</li>
+                  <li>· React, Jest, Eslint 등 학습</li>
                 </ul>
               </div>
             </div>
@@ -60,11 +60,11 @@ export default class Experiences {
             </div>
             <div class="experiences__summary">
               <div class="experiences__period">
-                2020.06 - 2022.03
+                2022.03 - 2022.08
               </div>
               <div class="experiences__info">
                 <ul class="info__list">
-                  <li>· 팀프로젝트,코드리뷰를 통한 협업경험</li>
+                  <li>· 팀 프로젝트, 코드리뷰를 통한 협업경험</li>
                   <li>· Javascript, React, TypeScript 외 다수 학습</li>
                 </ul>
               </div>
@@ -77,8 +77,9 @@ export default class Experiences {
               </div>
               <div class="experiences__info content_left">
                 <ul class="info__list">
-                  <li>· 현장 자금 수지 추정 프로젝트</li>
-                  <li>· 태영건설 RPA 솔루션 도입</li>
+                  <li>· IT 기획/운영/관리 업무 수행</li>
+                  <li>· 현장 회계 시스템 운영 및 기능 개발</li>
+                  <li>· Digital Transformation 프로젝트 PMO 역할 수행</li>
                 </ul>
               </div>
             </div>
