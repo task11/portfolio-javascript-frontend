@@ -19,6 +19,4 @@ document.addEventListener("DOMContentLoaded", () => {
   skills.render();
   projects.render();
   footer.render();
-
-  projects.hydrateEventListener();
 });

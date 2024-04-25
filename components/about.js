@@ -1,11 +1,7 @@
-import { profileKO } from "../data/profile.js";
-
 const aboutId = document.querySelector("#about");
 
 export default class About {
   render = () => {
-    const profileData = profileKO;
-
     aboutId.innerHTML = `
       <span class="section__title">About</span>
       <div class="section__about">
@@ -21,13 +17,23 @@ export default class About {
           </div>
           <div class="about__intro">
             <p>
-              IT 기획/운영 직무로 근무하며 Java/JSP/Oracle 기반의 시스템 개발 및 운영을 담당했으며 필요에 따라 PMO(Project Management Office) 역할을 겸하였습니다.</br>
-              프로덕트를 개발/운영하며 다양한 직무의 구성원들과 적극적으로 커뮤니케이션하며 협업해왔습니다.
-              </p>
+            HTML, CSS, JavaScript를 활용하여 사용자 친화적이고 반응형 웹 사이트와 웹 애플리케이션을 만듭니다.<br/>
+            특히 React와 같은 현대적인 자바스크립트 라이브러리와 프레임워크에 관심이 많습니다.
+            사용자 경험을 중요하게 생각하며, 효율적이고 접근성 높은 코드를 작성하는 것을 추구합니다.<br/>
+            또한 웹 표준과 모범 사례를 준수하여 유지보수 가능하고 확장 가능한 코드를 작성하고자 노력합니다.
+            </p>
+          </div>
+          <div class="about__contact">
+            <a class="contact__item" href="https://github.com/task11" target="_blank">
+              <img class="contact__img" src="/assets/github_contact.png" alt="github link"/>
+            </a>
+            <a class="contact__item" href="mailto:6539305@gmail.com">
+              <img class="contact__img" src="/assets/mail.png" alt="mail link"/>
+            </a>
           </div>
         </div>
         <div class="about__profile">
-          <img src="/portfolio-javascript-frontend/assets/profile_ill.png" alt="Profile Image" class="about__image" />
+          <img src="/assets/profile_ill.png" alt="Profile Image" class="about__image" />
         </div>
       </div>
     `;

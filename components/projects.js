@@ -1,14 +1,6 @@
 const projectsId = document.querySelector("#projects");
 
 export default class Projects {
-  hydrateEventListener = () => {
-    const projectCardList = document.querySelector(".project__contents");
-
-    projectCardList.addEventListener("click", (e) => {
-      console.log(e.target);
-    });
-  };
-
   render = () => {
     projectsId.innerHTML = `
 <span class="section__title">Projects</span>
@@ -54,9 +46,9 @@ export default class Projects {
                 <ul class="project__list">
                     <li>· Github API를 활용한 유저 검색, 유저 레포지토리 정보 조회 기능 구현</li>
                     <li>· 컴포넌트별 단위 테스트 코드 작성</li>
-                    <li>·  Theme을 활용한 공통 스타일 관리, Dark/Light 모드 구현</li>
-                    <li>·  Github Action기반의 CI/CD 환경 구성으로 배포 자동화 구현</li>
-                    <li>·  <a href="https://github.com/task11/github-gg-react-typescript-frontend/projects?query=is%3Aopen">Github project</a>를 활용한 이슈 관리 및 작업 내용 review</li></li>
+                    <li>· Theme을 활용한 공통 스타일 관리, Dark/Light 모드 구현</li>
+                    <li>· Github Action기반의 CI/CD 환경 구성으로 배포 자동화 구현</li>
+                    <li>· <a href="https://github.com/task11/github-gg-react-typescript-frontend/projects?query=is%3Aopen">Github project</a>를 활용한 이슈 관리 및 작업 내용 review</li></li>
                 </ul>
               </div>
               <div class="project__result project__info">
