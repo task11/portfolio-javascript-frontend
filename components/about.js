@@ -12,12 +12,12 @@ export default class About {
                 <span>안녕하세요</span>
                 <xmp class="greeting__tag"></p></xmp>
             </div>
-            <span>프론트엔드 개발자 </span>
+            <span>프론트엔드 개발자</span>
             <span><strong class="greeting__name">김정현</strong>입니다.</span>
           </div>
           <div class="about__intro">
             <p>
-            성장하는 스타트업에서 프론트엔드 개발 역량과 빠른 적응력을 토대로 성공적인 도전과 검증을 이뤄내고 싶습니다.<br/>
+            성장하는 기업에서 프론트엔드 개발 역량과 문제 해결력을 토대로 성공적인 도전과 검증을 이뤄내고 싶습니다.<br/>
             문제의 본질을 이해하고 해결할 수 있는 답을 찾는 것을 좋아합니다.<br/>
             반복되는 작업을 자동화하고, 업무 생산성에 도움이 되는 프로세스를 구축하는 것에 관심이 많습니다.<br/>
             </p>
