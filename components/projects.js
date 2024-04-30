@@ -26,7 +26,7 @@ export default class Projects {
               </div>
             </div>
             <div class="project__link">
-              <a href="https://d3c97fi8gf3kcj.cloudfront.net/" target="_blank"><img class="link__image" src="/portfolio-javascript-frontend/assets/browser.png"/></a>
+              <a href="https://www.githubgg.site/" target="_blank"><img class="link__image" src="/portfolio-javascript-frontend/assets/browser.png"/></a>
               <a href="https://github.com/task11/github-gg-react-typescript-frontend" target="_blank"><img class="link__image" src="/portfolio-javascript-frontend/assets/github.png"/></a>
               <a href="https://www.notion.so/Github-gg-aa13110e8a4044019ad60e856070e9fa?pvs=4" target="_blank"><img class="link__image" src="/portfolio-javascript-frontend/assets/doc.png"/></a>
             </div>
