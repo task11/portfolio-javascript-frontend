@@ -86,8 +86,8 @@ export default class Projects {
             </div>
             <div class="project__link">
               <a href="https://github.com/MyTumblerDiary/MTD-front" target="_blank"><img class="link__image" src="/portfolio-javascript-frontend/assets/github.png"/></a>
-              <a href="https://www.figma.com/file/aBM6ObNmaKPaaUI2U2PNaR/My-Tumbler-Diary?type=design&mode=design&t=CjNNIkDHOLwjVZvI-0" target="_blank"><img class="link__image" src="/portfolio-javascript-frontend/assets/figma.png"/></a>
               <a href="https://task11.notion.site/My-Tumbler-Diary-1bc94dc48a6849ac848891d75a50a70a?pvs=4" target="_blank"><img class="link__image" src="/portfolio-javascript-frontend/assets/doc.png"/></a>
+              <a href="https://www.figma.com/file/aBM6ObNmaKPaaUI2U2PNaR/My-Tumbler-Diary?type=design&mode=design&t=CjNNIkDHOLwjVZvI-0" target="_blank"><img class="link__image" src="/portfolio-javascript-frontend/assets/figma.png"/></a>
             </div>
           </div>
           <div class="project__summary">
