@@ -16,7 +16,7 @@ export default class Projects {
                 <span>react</span>
               </div>
               <div class="project__stack skll__recoil">
-                <span>recoil</span>
+                <span>jotai</span>
               </div>
               <div class="project__stack skill__reactquery">
                 <span>react-query</span>
